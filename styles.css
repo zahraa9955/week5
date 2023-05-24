@@ -1,0 +1,107 @@
+
+body{
+    background-color: rgb(250, 253, 235);
+    font-family:'Markazi Text' , serif ;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.logo {
+    text-align: left;
+    justify-content: start; 
+  }
+  
+  .logo img {
+    width: 200px; 
+    height: 30; 
+    display: block;
+    margin: 0 auto; 
+    transform: translateY(-20px);
+ }
+  
+
+header {
+    background-color: rgb(250, 253, 235);
+    color: #fff;
+    padding: 10px;
+  }
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;  
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 20; 
+    display: flex; 
+    justify-content: center; 
+  }
+
+  
+  nav li {
+    margin: 0 40px; 
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: rgb(6, 10, 9);
+    font-weight: bold; 
+  }
+  
+  nav a:hover {
+    color: #7ee7d0; 
+  }
+  button {
+    size: 40px;
+  transform: translateY(-10px);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7ee7d0;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+
+  }
+.tour{
+      color: #7ee7d0 ;
+      font-weight: bold;
+  }
+.lobe{
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.center-div {
+  margin: 0 auto;
+}
+p{
+text-align: center;
+}
+
+video{
+    width: 400px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    
+}
